@@ -1,0 +1,8 @@
+#Craeting backend configuretion using Ansible Roles:
+- name: Configure {{ component }} Server
+  hosts: all
+  become: yes
+  vars_files:
+    - "variables-{{ environment }}.yaml"
+  roles:
+  - {{ component }}
