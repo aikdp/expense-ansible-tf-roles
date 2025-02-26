@@ -1,1 +1,3 @@
-BACKEND_HOST: backend.app-dev.telugudevops.online #Add dev here
+# BACKEND_HOST: backend.app-dev.telugudevops.online #Add dev here
+
+BACKEND_HOST: backend.telugudevops.online #Add dev here , when pract TERARFORM
