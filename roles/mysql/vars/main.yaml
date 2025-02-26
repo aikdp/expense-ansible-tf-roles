@@ -1,2 +1,2 @@
-  root_pass: ExpenseApp1
+  root_pass: ExpenseApp@1   #remove @
   hosted_zone: mysql.telugudevops.online

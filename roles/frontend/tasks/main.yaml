@@ -41,7 +41,7 @@
 
     - name: Copy frontend service
       ansible.builtin.template:
-        src: expense.conf.j2
+        src: expense.conf.j2  #added 8080 for tf app practice 26-02-2025
         dest: /etc/nginx/default.d/expense.conf
       notify:
       - Restart nginx
