@@ -1,6 +1,6 @@
 #creating backend configurations using ANSIBLE ROLES
-- name: backend configurations 
+- name: "{{ component }} configurations"
   hosts: backend
   become: yes
   roles:
-  - backend
+  - "{{ component }}"

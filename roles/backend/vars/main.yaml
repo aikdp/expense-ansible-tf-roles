@@ -1,2 +1,2 @@
-mysql_root_password: ExpenseApp@1  #here deleted @ , its not taking
-login_host: mysql.telugudevops.online
+mysql_root_password: ExpenseApp1  #here deleted @ , its not taking
+login_host: mysql-dev.telugudevops.online
